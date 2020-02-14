@@ -2,10 +2,18 @@
     width: 100vw;
     height: 60px;
 }
+.bg{
+    background-image: url("../images/h1.jpg");
+  
+    background-repeat: no-repeat;
+    
+   
+    background-size: cover;
+}
 
 
 .row{
-    background-image: url("../images/h1.jpg");
+   
     height: 100vh;
     background-repeat: no-repeat;
     
