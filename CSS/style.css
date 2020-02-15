@@ -94,11 +94,33 @@ h5{
     padding: 15px;
 }
 #bg-opacity{
-    background-image: url("../images/bg3.jpg");
+    background-image: url("../images/bg4.jpg");
     height: 100vh;
     background-repeat: no-repeat;
     width: 100vw;
     background-size: cover;
    
 }
-
+.card-group{
+    text-align: center;
+    font-size: 15px;
+    justify-content:center;
+    align-items: center;
+    color:black;  
+}
+.card{
+    margin-right: 200px;
+    margin: 100px;
+    width: 90px;
+    height: 200px;
+    opacity: 70%;
+}
+#card-bg{
+    background-image: url("../images/bg4.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size: cover;
+    opacity: 90%;
+   
+}
