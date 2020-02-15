@@ -30,7 +30,6 @@
     margin-top: 70px;
 }
 .btn {
-    
     border:navy;
     color: white;
     padding: 15px 32px;
@@ -71,13 +70,12 @@
 }
 #text3{
     text-align: center;
-    padding: 100px;
-    font-size: 15px;
     justify-content:center;
     align-items: center;
-    margin-left: 300px;
+    margin-left: 500px;
     color:black;
-    
+    text-transform: uppercase;
+  
 }
 #text4{
     text-align: center;
@@ -86,9 +84,14 @@
     justify-content:center;
     align-items: center;
     margin-left:30px;
-    color:black;    
+    color: darkslategray;    
 }
 #clients{
-    align-items: center; 
-    justify-content:center;
+   align-items: center;
+} 
+h5{
+    text-align:center;
+    padding: 15px;
 }
+
+
