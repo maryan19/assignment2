@@ -41,4 +41,8 @@
     margin: 4px 2px;
     cursor: pointer;
   }
-   
+#row-bg{
+    background-image: url("../images/bg3.jpg");
+    width: 100vw;
+
+}
