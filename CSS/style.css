@@ -54,7 +54,7 @@
     padding: 100px;
     justify-content:center;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 200px;
     margin-top: 100px;
     color:white;
     
@@ -64,8 +64,31 @@
     padding: 100px;
     justify-content:center;
     align-items: center;
-    margin-left: 450px;
-    margin-top: 100px;
+    margin-left: 300px;
+    margin-top: 50px;
     color:black;
     
+}
+#text3{
+    text-align: center;
+    padding: 100px;
+    font-size: 15px;
+    justify-content:center;
+    align-items: center;
+    margin-left: 300px;
+    color:black;
+    
+}
+#text4{
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+    justify-content:center;
+    align-items: center;
+    margin-left:30px;
+    color:black;    
+}
+#clients{
+    align-items: center; 
+    justify-content:center;
 }
