@@ -110,10 +110,10 @@ h5{
 }
 .card{
     margin-right: 200px;
-    margin: 100px;
-    width: 90px;
+   
+    width: 150px;
     height: 200px;
-    opacity: 70%;
+    opacity: 80%;
 }
 #card-bg{
     background-image: url("../images/bg4.jpg");
