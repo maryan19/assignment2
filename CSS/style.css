@@ -96,9 +96,20 @@
 #clients{
    align-items: center;
 } 
-h5{
+h6{
     text-align:center;
     padding: 15px;
+}
+h5{
+    text-align:center;
+    padding: 15px; 
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    justify-content:center;
+    align-items: center;
+    margin-left:550px;
+    color:grey; 
 }
 #bg-opacity{
     background-image: url("../images/bg4.jpg");
