@@ -2,7 +2,15 @@
     width: 100vw;
     height: 60px;
 }
-.bg{
+@media only screen and (max-width: 840px) and (min-width:360px) {
+    body {
+        background-color:white;
+      }
+}
+    
+
+
+#bg{
     background-image: url("../images/h1.jpg");
     height: 100vh;
     background-repeat: no-repeat;
@@ -124,12 +132,11 @@ h5{
     opacity: 90%;
    
 }
-.footer{
+#footer{
     margin-top:30px;
-    margin-left: 500px;
+    margin-right: 500px;
     width: 100px;
     height: 200px;
-    opacity: 80%;
     align-items: center;
 
 }
@@ -142,8 +149,6 @@ h5{
     align-items: center;
     margin-left:500px;
     color:black; 
+    
 
-}
-#icons{
-   margin-bottom: 50px;
 }
