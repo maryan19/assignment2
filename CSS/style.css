@@ -2,21 +2,68 @@
     width: 100vw;
     height: 60px;
 }
-@media only screen and (max-width: 840px) and (min-width:360px) {
-    body {
-        background-color:white;
-      }
+@media  screen and (max-width:700px){
+   
+   #col-md-4{
+       width:100vw;
+       height: 300px;
+   }  
+   #home-page{
+       width: 100vw;
+   }
+   #bg{
+       width: 100vw !important;
+       height: 400px;
+       background-image: url("../images/h1.jpg");
+   }
+   #row-bg{
+    width: 100vw !important;
+    height: 400px;
+    background-image: url("../images/bg3.jpg");
+   }
+   .col-md-6{
+    width:100vw;
+    height: 300px; 
+   }  
+   
+   .col-md-3{
+    width:100vw;
+    height: 300px; 
+   }
+
+}
+#bg{
+    background-image: url("../images/h1.jpg");
 }
 
 
+@media  screen and (min-width:700px){
 #bg{
     background-image: url("../images/h1.jpg");
     height: 100vh;
     background-repeat: no-repeat;
     width: 100vw;
     background-size: cover;
+    
+}
+.heading{
+    text-align: center;
+    padding:20%;
+    justify-content:center;
+    align-items: center;
+}
+#text{
+    text-align: center;
+    padding: 100px;
+    justify-content:center;
+    align-items: center;
+    margin-left: 700px;
+    margin-right: 300px;
+    color:white;
+    
 }
 
+}
 
 .row{
    
@@ -27,14 +74,6 @@
     text-align: center;
     
   
-}
-.heading{
-    text-align: center;
-    padding: 50px;
-    justify-content:center;
-    align-items: center;
-    margin-left: 180px;
-    margin-top: 50px;
 }
 .btn {
     border:navy;
@@ -175,4 +214,21 @@ h4{
     color:black; 
     
 
+}
+#font{
+    font-size: 13px;
+    align-items: center;
+    text-align:justify;
+    padding: 30px;
+   
+}
+#fonts{
+
+    text-align: left;
+    text-align:justify;
+    padding: 30px;
+}
+
+#btns{
+ margin-right: 350px;
 }
